@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+    <title>Document</title>
+    <style>
+        .app-wrapper{
+            display:grid;
+            grid-template-rows: 628px auto;
+            
+        }
+        .nav-tabs.nav-justified>li>a {
+          /*  border-bottom: 1px solid #ddd;
+            
+            border-left: 1px solid #ddd;*/
+                margin-top: 16px;
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .nav-tabs.nav-justified>li>a :hover {
+        border: none;
+        }
+        .nav-tabs.nav-justified>li :hover {
+            background: #00000073;
+            border: none !important;
+            color: #fffefe;
+            font-weight: 600;
+        }
+        .nav-tabs.nav-justified>li>a :active {
+        border: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .nav-tabs.nav-justified{
+                height: 150px;
+            }
+    }
+        .nav-tabs.nav-justified>li :active {
+            background: #00000073;
+            border: none !important;
+            color: #fffefe;
+            font-weight: 600;
+        }
+        .nav-tabs.nav-justified {
+            width: 100%;
+            border-bottom: 0;
+            background: #00000078;
+            height: 80px;
+            color: white !important;
+        }
+        .row {
+         margin-right: 0px; 
+         margin-left: 0px;
+       }
+       @media (min-width: 768px){
+        .nav-tabs.nav-justified>li>a {
+         border-bottom:0; 
+       
+        }
+       
+               
+        }
+       #nav-bar{
+        background-image: url('./img/port.jpeg');
+        background-size: cover;
+        opacity: 0.6;
+       } 
+       #content{
+        background-image: url('./img/main.png');
+        background-size: cover;
+           text-align: center;
+           margin: 0px;
+            background:(0,0,0,0.6);
+       }
+h1 span { 
+    padding-top: 26px;
+    display: block;
+    font: 300 20px/24px 'Open Sans', sans-serif;
+}
+
+
+       #image{
+        height: 300px;
+        width: 300px;
+       
+        background: url(./img/an.jpg) no-repeat;
+        content: "";
+        background-size : contain;
+}
+.sub-heading{
+    padding-top: 20px;
+    display: block;
+    font: 300 20px/24px 'Open Sans', sans-serif;
+    color: #287e7d;
+    line-height: 40px;
+}
+#sub-content{
+    text-align: left;
+    margin-top: 15px;
+}
+#content > div> h1{
+    font-weight: 500;
+    line-height: 40px;
+    color: #287e7d;
+    font-size: 48px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+} 
+.navbar-default {
+    background-color: #f8f8f800;
+    border-color: #e7e7e700;
+}  
+p{
+    font-size: 17px;
+    padding: 6px 20px;
+    margin: 10px;   
+}
+.list-group-item{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.list-group{
+    padding:20px 20px;
+}
+.in_header{
+    text-align: center;
+    color: white;
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin: 209px;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="app-wrapper">
+        <div class="row" id="nav-bar">
+          <div> 
+        <nav class="navbar navbar-default navbar-fixed-top"> 
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li ><a href="#">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#hobbie">Hobbies & Interest</a></li>
+                <li><a href="#personalSummary">Personal Summary</a></li> 
+                <li><a href="#professionalSummary">Professional Summary</a></li>        
+            </ul>
+        </nav>
+            </div>
+            <div class="in_header">
+                <span>Hello my name is Gaurav Singh and</span>
+                <h1>I AM FRONT-END DEVELOPER.</h1>
+                <span>creating modern and responsive design for web and mobiles.</span>
+            </div>
+        </div>
+        <div class="row" id="content"> 
+            
+            <div class="row" id="aboutMe">
+             <h1> ABOUT ME
+                <span>THE BRIEF INTRODUCTION OF MYSELF</span>
+             </h1>
+             <p >I am an enthusiastic, self-motivated, reliable, responsible and hard working person.I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+            <div class="col-sm-3" id="image"></div>
+           <div class="col-sm-9" id="sub-content"> <h1 style="color: #287e7d;">Gaurav Singh</h1>
+            <h3 style="color: #287e7d;">• Developer  • Coder  </h3></br>
+            <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati labore minus ratione laudantium tempore consectetur quaerat sint.</p>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum exercitationem eligendi excepturi nisi corporis doloremque tenetur, delectus veritatis officiis, recusandae at? Similique quisquam odit pariatur laborum!</p>
+        </div>
+            </div>
+        </br>
+            <div id="hobbie" class="row">
+                <h1>Hobbies</h1>
+                
+                    <p>Tech Hobbies (Computing)</p>
+                    <p>Team Sports (Basketball) </p>
+                    <p>Computer Games </p>
+        
+            </div>
+            <div id="personalSummary" class="row"> 
+                <h1>Personal Summary</h1>
+                    <p>Name : Gaurav Singh</p>
+                    <p> D.O.B : 26/11//1999</p>
+                    <p>College : JIET University</p>
+                    <p>Branch : C.S.E</p>
+                    <p >Email : gaurav@gmail.com</p>
+                    <p>Contact No. : 0987654321</p>
+               
+            </div>
+            <div id="professionalSummary" class="row">
+                <h1>Professional Summary</h1>
+                <span class="sub-heading">QUALIFICATIONS</span>
+                <p>B.tech. in Computer Science(2nd Year)</p>
+                <span class="sub-heading">SKILL SET</span>
+                    <p>C++</p>
+                    <p> HTML</p>
+                    <p>CSS</p>
+                    <p>JAVASCRIPT</p>
+            </div>
+             </div>
+    </div>
+
+</body>
+</html>
